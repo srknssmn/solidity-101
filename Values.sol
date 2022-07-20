@@ -19,5 +19,18 @@ contract ValueTypes {
     int public minInt = type(int).min; // min imt değeri için
     int public maxInt = type(int).max; // max int değeri için
     
-    bytes32 public b32 = 0x05416460deb76d57af601be17e777b93592d8d4d4a4096c57876a91c84f4a712;
+    bytes32 public b32 = 0x05416460deb76d57af601be17e777b93592d8d4d4a4096c57876a91c84f4a712; // stores data
+
+// variable-size types
+    string name;
+    bytes data; // stores data
+    uint[] amounts;
+    mapping(uint => string) users;  // users[10] => 'go go go'
+// user-defined data
+    struct User{
+        uint id;
+        string name;
+        uint[] friendIds;
+    } 
+    
 }

@@ -112,11 +112,11 @@
 	},
 	"sources": {
 		"Values.sol": {
-			"keccak256": "0x5a1b7ec1f1341b4a36b8e92c882f69659e9569eda8a988fef92e97e161e7a424",
+			"keccak256": "0x598ec200b5e1d970f0a46a6fdeb5fff9f5d8bf9baa97c161b02dd763bb5ca7a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://80b31e6b0dede2d809ab5d6d0fdcf9d1aa233854c600fafb16948e058ca5b8c4",
-				"dweb:/ipfs/QmT18PZcBJG1DuxrpEJ4mUjzL3VH5bwSrScsrNEFfSR6Xe"
+				"bzz-raw://c99e1cffdf26d138548aeb64e8abb2c103863183827524ca0f2f0218837c8bf1",
+				"dweb:/ipfs/QmUFTiX4FRM4jvT11VVfwMaPrp3io7xRbdCzTj2WVQGHKo"
 			]
 		}
 	},
