@@ -15,5 +15,6 @@ contract Function {
       
         // external: for calling function after deploy contract
         // pure: read only deneme
+        // function _createZombie(string memory _name, uint _dna) private {
 
 }
