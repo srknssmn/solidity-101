@@ -43,6 +43,13 @@ contract ValueTypes {
              // Person satoshi = Person(172, "Satoshi");
            // Add that person to the Array:
             // people.push(satoshi);  people.push(Person(172, "Satoshi")) - CLEAN VERSION
+
+            // mapping (address => uint) public newName;
+        // For a financial app, storing a uint that holds the user's account balance:
+        // Or could be used to store / lookup usernames based on userId
+            // mapping (uint => string) userIdToName;
+
+
     } 
     
 }
