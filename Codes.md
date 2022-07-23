@@ -22,3 +22,8 @@ contract ValueTypes {
     adress public adres = 0xa0Bb394Be5CC8783BD1f00E3843088791B5242a7;
     
     bytes32 public b32 = 0x05416460deb76d57af601be17e777b93592d8d4d4a4096c57876a91c84f4a712;
+
+- Public: Herkes çağırabilir
+- Private: Sadece contratın kendi içinde çağrılabilir
+
+- View: Veri döner ama veriyi değiştirmez.
