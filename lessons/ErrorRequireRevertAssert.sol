@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.15;
 
 contract ErrorTest {
 
@@ -24,4 +23,13 @@ contract ErrorTest {
             num+=1;
  // num assert'ten dolayı değişmemesi gerektiği için; numFun artık call edildiğinde ERROR mesajı alınır!                         
         }
+
+    error MyError();
+    function myError(uint _y) public pure{
+        if (_y>10){
+            revert MyError();    // speng less gas !!
+        }
+    }
+    
+
     }

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.15;
 
 // Storage refers to variables stored permanently on the blockchain. 
 // Memory variables are temporary, and are erased between external function calls to your contract. 

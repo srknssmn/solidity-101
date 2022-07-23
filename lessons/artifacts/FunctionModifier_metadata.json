@@ -7,21 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "increment",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -30,6 +16,46 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paused",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_paused",
+						"type": "bool"
+					}
+				],
+				"name": "setPause",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -46,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lessons/Counter.sol": "Counter"
+			"lessons/FunctionModifier.sol": "FunctionModifier"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lessons/Counter.sol": {
-			"keccak256": "0xb7e6c41dea64f2ec58c57a3b59f057031d8a0e76a1f82023da2a5c895268475e",
+		"lessons/FunctionModifier.sol": {
+			"keccak256": "0xe20237d8133502fc7d1487038df5ef018cb4ccac773b2e1fc0c201ebcb27b038",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fa36a821fdfcf73ceff27404fd93a7fd6d97628a67430ece9b490b7528f6e56f",
-				"dweb:/ipfs/QmXgVRjUPFTTeUfnrLu9Mp5px6R5GUAALKmfjb9KHKTo9F"
+				"bzz-raw://7371db7055055d29f1960986381bfe66c34f74bd5015b0d5153e5e11f79e57cc",
+				"dweb:/ipfs/QmNn4Q5atvhsKcyF4nDn1saR9mPr4J9hevvgJWNRraibR3"
 			]
 		}
 	},

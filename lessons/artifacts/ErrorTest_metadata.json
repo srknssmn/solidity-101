@@ -7,6 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "MyError",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "myError",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "num",
 				"outputs": [
 					{
@@ -30,6 +48,32 @@
 				"name": "ornek",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "testRequire",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "testRevert",
+				"outputs": [],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -61,11 +105,11 @@
 	},
 	"sources": {
 		"lessons/ErrorRequireRevertAssert.sol": {
-			"keccak256": "0x707f4cdbf4e11bf249d1dbae89dbb4ff38fd3d8dc3a73020dc05da4565dee0c9",
+			"keccak256": "0xbfd8be8512f76056ff90995bf2b1890c7b079fb3ad8a90eaf12271544b2fe99c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cb3f2b8da19ae3fc64cd60701350a5fd65f59b6091585f6e7588d759d32d39a3",
-				"dweb:/ipfs/Qmd1jZFryRQ6ayVY1JN7DtGPJGr4s8gMR9iQLekmsEnLBT"
+				"bzz-raw://156bcc50b13c70048f6e4b7204b356eed59f198f866c32ff6e5e60f8306172d7",
+				"dweb:/ipfs/QmVQuLvNmpzw5wDsYs3ceWRoqcvfHfBfHPg6u8KyudWA7v"
 			]
 		}
 	},

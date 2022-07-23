@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
-
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.15;
 
 contract ForAndWhite{
-    
+
 // for tanımı
     for (uint i=0; i<10; i++){
         // code
